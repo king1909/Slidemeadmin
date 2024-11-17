@@ -9,14 +9,15 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@highcharts/map-collection": "^2.3.0",
     "bootstrap": "^5.3.3",
     "highcharts": "^11.4.8",
     "highcharts-react-official": "^3.2.1",
+    "project205": "file:",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.5",
     "react-dom": "^18.3.1",

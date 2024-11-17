@@ -14,6 +14,7 @@ import Login from "./components/Login/Login";
 function App() {
   const [slide, setSlide] = useState(false);
   const [status, setStatus] = useState("login");
+  
   function handleSlide() {
     setSlide(!slide);
   }
@@ -22,7 +23,7 @@ function App() {
   }
   else {
     return(
-        <BrowserRouter>
+        <BrowserRouter basename="/Slidemeadmin">
           <div className="app">
             <Navbar slide={slide} setStatus={setStatus} />
             <div className="main-content">
