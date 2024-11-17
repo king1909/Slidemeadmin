@@ -37,7 +37,7 @@ function Sidebar({ slide, setStatus }) {
               currentTab.pathname === "/permission" && "active"
             }`}
           >
-            Permission
+            Permissio
           </button>
         </Link>
         <Link to="/status">
